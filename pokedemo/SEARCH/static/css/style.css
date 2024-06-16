@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(rgba(255, 203, 5, .8), rgba(61, 125, 202, .8), rgba(0, 58, 112, .8));
+    background-size: cover;
+    min-height: 100vh;
+    
+}
+
+form {
+    padding: 100px;
+    background: linear-gradient rgba(0, 58, 112, .8);
+    font-size: 0px;
+    max-width: 500px;
+    
+}
+
+#search{
+    border: solid black;
+    justify-content: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.card {
+    background: linear-gradient(rgba(255, 203, 5, .8), rgba(61, 125, 202, .8), rgba(0, 58, 112, .8));
+    font-family: "Pokemon Hollow", sans-serif;
+    text-shadow: black 20px 15px 10px;
+    text-transform: capitalize;
+    max-width: 600px;
+}
+
+#text{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    background-color:rgba(0, 58, 112, .9) ;
+}
+
+
+
+
+#image {
+    min-width: 250px;
+    max-height: 600px;
+}
+
+#image img {
+    height: 100%;
+    width: auto;
+}
+
+
+
+/* media query to make sure the image on a medium screen doesn't go past a certaain width */
+@media screen and (min-width: 768px){
+    #image {
+        width: 300px;
+    }
+}
